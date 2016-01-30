@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>$1</title>
+    <script src="$2"></script>
+    <link rel="stylesheet" href="$3" />
+</head>
+<body>
+    <div id="$4">$5</div>
+</body>
+</html>]]></content>
+<tabTrigger>skel</tabTrigger>
+<scope>text.html</scope>
+</snippet>

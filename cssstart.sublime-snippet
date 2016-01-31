@@ -1,0 +1,45 @@
+<snippet>
+    <content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+html {
+  font-size: 62.5%;
+  ${1:this}
+}
+body {
+  font-size: 1.4em;
+  margin: auto;
+  ${2:this}
+}
+h1{ font-size: 2.4em;${3:this}}
+h2{ font-size: 2.0em;${4:this}}
+h3{ font-size: 1.8em;${5:this}}
+em{ font-style: italic;${6:this}}
+strong{ font-weight: bold;${7:this}}
+a {text-decoration: none;${8:this}}
+a:link,
+a:visited {${9:this}}
+a:hover {${10:this}}
+
+@media screen and (min-width: 301px) and (max-width: 500px){
+      #main {
+        width: ${11:this};
+        background-color: ${12:this};
+      }
+    }
+@media screen and (min-width: 501px) and (max-width: 1200px){
+    #main {
+        width: ${13:this};
+        background-color: ${14:this};
+    }
+}
+@media screen and (min-width: 1201px){
+      #main {
+        width: ${15:this};
+        background-color: ${16:this};
+      }
+    }]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>csstart</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
